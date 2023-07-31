@@ -20,7 +20,7 @@ body{
 }
 
 .alinhar-titulo{
-    position: absolute;
+    position: relative;
     top: 8px;
     left: 130px;
     font-size: 23px;
@@ -53,6 +53,7 @@ body{
 
 .destaque-planos{
     background-color: rgb(255, 230, 86);
+    pointer-events: none;
     
 }
 
@@ -126,9 +127,13 @@ h3{
     border-radius: 15px;
 }
 
+.lista-beneficios li::marker{
+    color: #cbe300;
+    
+}
+
 .lista-beneficios{
-    /* background-color: blueviolet; */
-    list-style-type: square;
+    list-style-type:square
     
 }
 .assine-ja{
