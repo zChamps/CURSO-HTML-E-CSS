@@ -2,6 +2,7 @@ body, html{
     margin: 0;
     padding: 0;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 ul{
@@ -16,8 +17,32 @@ ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    position: sticky;
     
 }
+
+
+nav ul li:hover{
+    background-color: black;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+a:link{
+    color: inherit;
+}
+
+a:visited{
+    color: inherit;
+}
+
+
+
+
+
 
 #logo{
     background-image: url(../imagens/logoAprenser.png);
